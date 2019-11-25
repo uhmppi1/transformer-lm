@@ -12,7 +12,7 @@ gpt-2 \
     $CHECKPOINT_DIR \
     $TARGET_DIR \
     $SPM_MODEL_PATH \
-    --batch-size 2 \
+    --batch-size 6 \
     --g-accum-gradients 4 \
     --n-ctx 1024 \
     --n-embed 128 \
